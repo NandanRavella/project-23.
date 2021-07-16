@@ -22,7 +22,7 @@ function setup() {
    player = new player(285, playerBase.body.position.y - 153, 50, 180);
  
  
-   computerBase = new ComputerBase(
+   computerBase = new computerBase(
      width - 300,
      random(450, height - 300),
      180,
